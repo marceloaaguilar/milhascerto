@@ -1,0 +1,490 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 143, 57, 0.8) 100%
+    ),
+    url("images/bgs/bela-foto-ampla-da-torre-eiffel-em-paris-rodeada-de-agua-com-navios-sob-o-ceu-colorido.jpg");
+  background-position: center right 40%;
+  padding: 3rem 4rem 0 4rem;
+}
+
+#logo-pontos-e-milhas {
+  width: 20rem;
+}
+
+#infosNavBar {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#text-initial {
+  gap: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+#homecall {
+  padding-top: 12rem;
+  display: grid;
+  gap: 0rem;
+}
+#img-home {
+  width: 34rem;
+}
+
+#title {
+  color: white;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.btn-cta {
+  background-color: #13a24d;
+  color: white;
+  border-radius: 2rem;
+  padding: 0 3rem 0 3rem;
+  font-weight: 700;
+  font-size: 1.5rem; 
+}
+
+.btn-cta:hover {
+  background-color: #006b2b;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#item-info {
+  font-size: 2rem;
+}
+
+#description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#titleWhoAmI {
+  color: white;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+#course1 {
+  background: linear-gradient(to right, rgb(0, 22, 9) 70%, rgb(0, 59, 25) 100%);
+  background-position: center right 40%;
+  padding: 3rem 4rem 0 4rem;
+  justify-content: center;
+}
+
+#initial-course-1 {
+  padding-top: 3rem;
+}
+
+#carousel{
+    padding-top: 3rem;
+}
+#itens-course {
+  padding-top: 5rem;
+  text-align: center;
+}
+#itemCourseTitle {
+  color: #13a24d;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#titleCarousel{
+    color: white;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+.itemContainer{
+    display: grid;
+    align-content: center;
+    height: 30rem;
+    transition: margin-bottom 750ms;
+}
+
+
+.itemContainer:hover{
+    margin-bottom: 4rem;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%);
+    background-size: cover;
+}
+
+.descriptionCarousel{
+    margin: 0 2rem 0 2rem;
+    display: none;
+}
+
+.item {
+    display: grid;
+    height: 30rem;
+    max-height: 30rem;
+    background-size: cover;
+    align-content: center;
+  }
+
+  #imageItem{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    object-fit: cover;
+    filter: brightness(30%);
+  }
+
+
+  #containerCta{
+    padding: 2rem; 
+    display: grid; 
+    justify-content: center;
+  }
+
+  
+  #course2{
+    padding: 3rem 4rem 0 4rem;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/terminal-do-aeroporto.jpg");
+    background-size: cover;
+  }
+  
+  .icon-course{
+    font-size: 3.5rem;
+    color: #CAAE60;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  #initial-course-2{
+    padding-top: 4rem;
+  }
+
+  #itens-course-2{
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  #item-course-2{
+    display: flex;
+  }
+
+  .icon-title{
+    font-weight: 600;
+    color: white;
+    margin: 0;
+  }
+
+  .image-course{
+    width: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  #sorteios{
+    padding: 3rem 4rem 0 4rem;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/vista-traseira-do-jovem-caminhante-asiatico-em-pe-e-levantando-as-maos-com-feliz-no-pico-do-espaco-de-copia-da-montanha-rochosa.jpg");
+    background-size: cover;
+  }
+
+  .image-sorteios{
+    height: 30rem;
+    width: 13rem;
+    margin-left: 1rem;
+    object-fit: cover;
+    border-radius: 300px;
+  }
+
+  #initial-sorteios{
+    padding-top: 4rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-sorteio{
+    height: 5rem;
+    width: 5rem !important;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  .step-sorteio{
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .steps{
+    gap: 2rem;
+  }
+
+  .title-sorteio{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .description-sorteio{
+
+    font-size: 1rem;
+  }
+
+  .general-title-sorteios{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 3rem;
+  }
+
+  #info-sorteios{
+    padding: 3rem 0 3rem 0;
+    align-items: center;
+    gap: 4rem;
+  
+  }
+
+  .item-2{
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .card-sorteios{
+    display: grid;
+    background-color: #13a24d;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 20rem;
+    height: 25rem;
+  }
+
+
+  .image-slide-sorteio{
+    width: 15rem !important;
+    height: 15rem !important;
+    border-radius: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .title-slide-sorteio{
+    color: white;
+    font-weight: 600;
+  }
+
+  #dicas{
+    padding: 3rem 4rem 0 4rem;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/pexels-walter-sietinga-396437.jpg");
+    background-size: cover;
+  }
+  
+  #initial-dicas-2{
+    padding-top: 4rem;
+  }
+
+  #item-dicas > div > i{
+    color: #13a24d;
+    
+  }
+  #item-dicas{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featurette-divider{
+    margin: 2rem 0 2rem 0;
+    color: white;
+  }
+
+  .infodicas > h3 {
+    color:#13a24d !important;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+    #rowFooter{
+      align-content: center;
+      justify-content: center;
+      gap: 16rem;
+      padding: 2rem 0 2rem 0;
+    }
+
+    ul{
+      list-style: none;
+    }
+    #logo-1{
+      width: 9rem;
+    }
+  
+    #logo-2{
+      width: 10rem;
+    }
+    
+    .places >ul > li >  a{
+      color: white;
+      font-size: 1rem;
+    }
+  
+    .places  ul > div> a{
+      color: white;
+      font-size: 1rem;
+    }
+
+
+  @keyframes moving {
+    from {transform: translateY(100px);}
+    to {transform: translateY(0px);}
+  }
+
+
+@media (max-width: 767px) {
+  #homecall {
+    padding: 1rem;
+  }
+  #title {
+    font-size: 2.4rem;
+  }
+
+  #description{
+    font-size: 1rem;
+  }
+  #btn-home {
+    padding: 0 1rem 0 1rem;
+  }
+
+  #item-info {
+    font-size: 1.6rem;
+  }
+
+  #titleWhoAmI {
+    font-size: 3.5rem;
+    line-height: 50px;
+  }
+
+  #item-course-2{
+    text-align: center;
+    display: grid;
+    padding-top: 3rem;
+    
+  }
+  .icon-course{
+    margin-bottom: -2rem;
+    font-size: 6rem;
+
+  }
+
+  .image-course{
+    width: 8rem;
+  }
+  
+  #containerCta{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .btn-cta{
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .image-sorteios{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 4rem;
+  }
+
+  .icon-sorteio{
+    width: 15rem !important;
+    margin-bottom: 2rem;
+  }
+  
+  .description-sorteio{
+    margin-bottom: 4rem;
+  }
+
+  .step-sorteio{
+    justify-content: center;
+  }
+
+  #rowFooter{
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem 0 4rem 0;
+  }
+  #logo-1{
+    width: 10rem;
+  }
+
+  #logo-2{
+    width: 10rem;
+  }
+  
+  .places >ul > li >  a{
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .places  ul > div> a{
+    color: white;
+    font-size: 1.3rem;
+  }
+}
