@@ -59,7 +59,7 @@ a:hover {
   border-radius: 2rem;
   padding: 0 3rem 0 3rem;
   font-weight: 700;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .btn-cta:hover {
@@ -388,7 +388,76 @@ p {
       font-size: 1rem;
     }
 
+    #login-page{
+      display: grid;
+      background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/pexels-walter-sietinga-396437.jpg");
+      background-size: cover;
+      height: 125vh;
+      justify-content: center;
+      padding-bottom: 5rem;
+    }
 
+
+    #form-login{
+      justify-content: center;
+      width: 45rem;
+    }
+
+    #form-container{
+      display: grid;
+      justify-content: center;
+    }
+    
+    
+    .form-group{
+      padding-bottom: 2rem;
+    }
+
+    .label-login{
+      color: white;
+      margin-bottom: 0.3rem;
+      font-size: 1.2rem;
+    }
+
+    #loginH3{
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: white;
+    }
+
+
+    #logoContainer{
+      display: flex;
+      padding: 3rem 0rem 20vh;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #logo-1{
+      width: 20rem;
+    }
+
+    #logo-2{
+      width: 15rem;
+    }
+
+    .login-elements{
+      padding-bottom: 7rem;
+    }
+
+    #boxExtraContent{
+      display: grid;
+      justify-content: center;
+    }
+    #todosOsDireitos{
+      font-size: 0.7rem;
+      font-weight: 400;
+    }
+
+
+
+    
   @keyframes moving {
     from {transform: translateY(100px);}
     to {transform: translateY(0px);}
@@ -486,5 +555,31 @@ p {
   .places  ul > div> a{
     color: white;
     font-size: 1.3rem;
+  }
+
+  #form-login{
+    justify-content: center;
+    width: 100%;
+  }
+  #loginH3{
+    font-size: 2.5rem;
+  }
+  .form-control{
+    padding: 0.7rem !important;
+  }
+  .label-login{
+    font-size: 1.4rem;
+  }
+  #form-login > form > a {
+    font-size: 1.6rem;
+  }
+
+  .description-login{
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .bi-arrow-right{
+    padding-left: 0.5rem;
   }
 }
