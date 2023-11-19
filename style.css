@@ -41,7 +41,6 @@ a:hover {
 #homecall {
   padding-top: 12rem;
   display: grid;
-  gap: 0rem;
 }
 #img-home {
   width: 34rem;
@@ -401,11 +400,17 @@ p {
     #form-login{
       justify-content: center;
       width: 45rem;
+      align-items: center;
     }
 
     #form-container{
       display: grid;
       justify-content: center;
+      background-color: white;
+      border-radius: 30px;
+      padding: 3rem;
+      gap: 1rem;
+      
     }
     
     
@@ -414,17 +419,20 @@ p {
     }
 
     .label-login{
-      color: white;
+      color: rgb(0, 0, 0);
       margin-bottom: 0.3rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     #loginH3{
-      font-size: 2.4rem;
-      font-weight: 700;
-      color: white;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: rgb(0, 0, 0);
     }
 
+    #loginDescription{
+      color: black;
+    }
 
     #logoContainer{
       display: flex;
@@ -434,9 +442,6 @@ p {
       align-items: center;
     }
 
-    #logo-1{
-      width: 20rem;
-    }
 
     #logo-2{
       width: 15rem;
@@ -455,7 +460,23 @@ p {
       font-weight: 400;
     }
 
+    #formLogin{
+      margin: 0;
+      padding: 0;
+    }
 
+    #row-btn{
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem 0 0.5rem 0;
+    }
+
+    #descriptionHome{
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+    }
 
     
   @keyframes moving {
@@ -539,14 +560,7 @@ p {
     gap: 1rem;
     padding: 4rem 0 4rem 0;
   }
-  #logo-1{
-    width: 10rem;
-  }
 
-  #logo-2{
-    width: 10rem;
-  }
-  
   .places >ul > li >  a{
     color: white;
     font-size: 1.3rem;
@@ -574,12 +588,26 @@ p {
     font-size: 1.6rem;
   }
 
+
+  #loginH3{
+    font-size: 1.8rem;
+  }
   .description-login{
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
   }
   .bi-arrow-right{
     padding-left: 0.5rem;
   }
+
+  #logo-1{
+    width: 7rem;
+  }
+
+  #logo-2{
+    width: 8rem;
+  }
+
+
 }
