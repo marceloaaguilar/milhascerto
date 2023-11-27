@@ -16,7 +16,7 @@ a:hover {
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.8) 0%,
-      rgba(0, 143, 57, 0.8) 100%
+      rgba(0, 102, 41, 0.9) 100%
     ),
     url("images/bgs/bela-foto-ampla-da-torre-eiffel-em-paris-rodeada-de-agua-com-navios-sob-o-ceu-colorido.jpg");
   background-position: center right 40%;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 #logo-pontos-e-milhas {
-  width: 20rem;
+  width: 11rem;
 }
 
 #infosNavBar {
@@ -56,10 +56,10 @@ a:hover {
   background-color: #13a24d;
   color: white;
   border-radius: 2rem;
-  padding: 0 3rem 0 3rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
   font-weight: 700;
   font-size: 1.5rem;
-}
+  }
 
 .btn-cta:hover {
   background-color: #006b2b;
@@ -360,7 +360,7 @@ p {
     }
 
     #rowFooter{
-      align-content: center;
+      align-items: center;
       justify-content: center;
       gap: 16rem;
       padding: 2rem 0 2rem 0;
@@ -374,7 +374,7 @@ p {
     }
   
     #logo-2{
-      width: 10rem;
+      width: 8rem;
     }
     
     .places >ul > li >  a{
@@ -455,10 +455,6 @@ p {
       display: grid;
       justify-content: center;
     }
-    #todosOsDireitos{
-      font-size: 0.7rem;
-      font-weight: 400;
-    }
 
     #formLogin{
       margin: 0;
@@ -477,8 +473,20 @@ p {
       font-size: 1rem;
       font-weight: 400;
     }
-
     
+    .infoHomeCourse{
+      padding-top: 4rem;
+      text-align: center;
+    }
+
+    .swiper-pagination-bullet{
+      background-color: white !important;
+    }
+    .swiper-pagination{
+      margin-bottom: 1rem;
+    }
+   
+  
   @keyframes moving {
     from {transform: translateY(100px);}
     to {transform: translateY(0px);}
@@ -487,6 +495,7 @@ p {
 
 @media (max-width: 767px) {
   #homecall {
+    margin-top: 1rem;
     padding: 1rem;
   }
   #title {
@@ -521,6 +530,7 @@ p {
 
   }
 
+
   .image-course{
     width: 8rem;
   }
@@ -529,11 +539,12 @@ p {
     display: flex;
     justify-content: center;
     padding: 0;
+    margin: 3rem 0rem 2rem 0rem;
   }
 
   .btn-cta{
-    font-size: 1.5rem;
-    padding: 0 1rem 0 1rem;
+    font-size: 1.4rem;
+    padding: 0rem 1rem 0rem 1rem;
   }
 
   .image-sorteios{
@@ -556,9 +567,11 @@ p {
   }
 
   #rowFooter{
+    display: grid;
     justify-content: center;
     gap: 1rem;
     padding: 4rem 0 4rem 0;
+    text-align: center;
   }
 
   .places >ul > li >  a{
@@ -602,12 +615,15 @@ p {
   }
 
   #logo-1{
-    width: 7rem;
+    width: 50%;
   }
 
   #logo-2{
-    width: 8rem;
+    width: 50%;
   }
 
+  #infosNavBar{
+    margin-top: 2rem;
+  }
 
 }

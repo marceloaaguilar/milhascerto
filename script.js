@@ -33,10 +33,6 @@
 })
 
 
-
-   
-
-
     if (window.location.href.includes("sorteios")){
         var swiper = new Swiper(".swiper2", {
             pagination: {
@@ -44,4 +40,14 @@
             },
           });
 
+    }
+
+    if (window.location.href.includes("gerenciar")){
+      var menu_btn = document.querySelector("#menu-btn");
+      var sidebar = document.querySelector("#sidebar");
+      var container = document.querySelector(".my-container");
+      menu_btn.addEventListener("click", () => {
+      sidebar.classList.toggle("active-nav");
+      container.classList.toggle("active-cont");
+});
     }
