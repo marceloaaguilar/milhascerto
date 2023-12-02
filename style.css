@@ -18,7 +18,7 @@ a:hover {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(0, 102, 41, 0.9) 100%
     ),
-    url("images/bgs/bela-foto-ampla-da-torre-eiffel-em-paris-rodeada-de-agua-com-navios-sob-o-ceu-colorido.jpg");
+    url("images/bgs/fotoTorreEiffel.webp");
   background-position: center right 40%;
   padding: 3rem 4rem 0 4rem;
 }
@@ -183,7 +183,7 @@ p {
   
   #course2{
     padding: 3rem 4rem 0 4rem;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/terminal-do-aeroporto.jpg");
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/terminalaeroporto.webp");
     background-size: cover;
   }
   
@@ -222,7 +222,7 @@ p {
 
   #sorteios{
     padding: 3rem 4rem 0 4rem;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/vista-traseira-do-jovem-caminhante-asiatico-em-pe-e-levantando-as-maos-com-feliz-no-pico-do-espaco-de-copia-da-montanha-rochosa.jpg");
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%),url("images/bgs/jovemCaminhante.webp");
     background-size: cover;
   }
 
@@ -360,21 +360,20 @@ p {
     }
 
     #rowFooter{
+      padding: 4rem;
       align-items: center;
-      justify-content: center;
-      gap: 16rem;
-      padding: 2rem 0 2rem 0;
+      justify-content: space-between;
     }
 
     ul{
       list-style: none;
     }
     #logo-1{
-      width: 9rem;
+      width: 13rem;
     }
   
     #logo-2{
-      width: 8rem;
+      width: 7rem;
     }
     
     .places >ul > li >  a{
