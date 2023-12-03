@@ -671,5 +671,8 @@ p {
   .places{
     text-align: center;
   }
+  #cards-info{
+    justify-content: center;
+  }
 
 }
