@@ -511,10 +511,13 @@ p {
       color: white;
     }
     #cards-info{
-      margin-top: 2rem;
+      margin: 5rem;
       justify-content: space-between;
     }
-
+    #cards-info #title{
+      text-align: center;
+      margin: 2rem;
+    }
  
   
   @keyframes moving {
@@ -673,6 +676,7 @@ p {
   }
   #cards-info{
     justify-content: center;
+    margin: 0;
   }
 
 }
