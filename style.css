@@ -479,7 +479,8 @@ p {
     }
     
     .infoHomeCourse{
-      padding-top: 4rem;
+      padding: 4rem;
+      margin: 0 3rem 0 3rem;
       text-align: center;
     }
 
@@ -519,12 +520,33 @@ p {
       margin: 2rem;
     }
  
-  
-  @keyframes moving {
-    from {transform: translateY(100px);}
-    to {transform: translateY(0px);}
-  }
 
+@media only screen and (min-width: 768px) and  (max-width: 1024px){
+	#cards-info{
+		margin: 0;
+	}
+	
+	#logo-1{
+		width: 15rem;
+	  }
+	
+	#logo-2{
+	width: 10rem;
+	}
+
+	#rowFooter{
+	justify-content: space-between;
+	padding: 4rem 0 4rem 0;
+	text-align: center;
+	margin: 0;
+	}
+	  
+	.infoHomeCourse{
+	padding: 0;
+	margin: 0;
+	}
+	
+}
 
 @media (max-width: 767px) {
   #homecall {
@@ -678,5 +700,15 @@ p {
     justify-content: center;
     margin: 0;
   }
+
+  .itemContainer{
+    transition: margin-bottom 750ms;
+  }
+
+  .infoHomeCourse{
+	padding: 0;
+	margin: 0;
+  }
+
 
 }
